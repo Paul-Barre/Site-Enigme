@@ -16,7 +16,7 @@
 			<header id="header" class="row">
 				<div id="headline" class="col-lg-12">
 					<div class="row">
-						<div id="logo" class="col-lg-2">Logo</div>
+						<div id="logo" class="col-lg-2">LOGO</div>
 						<div id="title" class="col-lg-3">ESCAPE THE WEB</div>
 						<div class="col-lg-7"></div>
 					</div>	
