@@ -12,10 +12,12 @@
 			<header class="row">
 				<div id="logoTitle_and_navbar" class="col-lg-12">
 					<div id="logo_and_title" class="row">
-						<div id="title" class="col-lg-4 offset-lg-3">TITRE</div>
+						<div id="title" class="col-lg-4 offset-lg-3">
+							ESCAPE THE WEB 
+						</div>
 						<div id="logo" class="col-lg-2">LOGO</div>
 					</div>
-					<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<nav id="navbar" class="navbar navbar-expand-xl navbar-dark bg-dark">
 						<ul class="navbar-nav col-lg-12">
 							<li class="nav-item col-lg-2"><a class="nav-link" href="#">Règles</a></li>
 							<li class="nav-item col-lg-2"><a class="nav-link" href="#">Scores</a></li>

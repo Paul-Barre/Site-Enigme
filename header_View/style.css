@@ -1,10 +1,30 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #logoTitle_and_navbar { background-color: red; }
 
-#logo_and_title { line-height: 300px; }
+#logo_and_title { 
+    max-height: 300px;
+    line-height: 125px;
+}
 
-#title { background-color: pink; }
+#title { 
+    background-color: pink;
+    font-family: "Arial Black", sans-serif;
+    font-size: 72px;
+    font-style: italic;
+    text-decoration: underline;
+}
 
-#logo { background-color: green; }
+#logo {
+    background-color: green;
+    line-height: 300px;
+}
 
 #navbar { line-height: 40px; }
 
