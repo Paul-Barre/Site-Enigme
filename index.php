@@ -19,7 +19,7 @@
 						<div id="logo" class="col-lg-2">LOGO</div>
 						<div id="title" class="col-lg-3">ESCAPE THE WEB</div>
 						<div class="col-lg-7"></div>
-					</div>	
+					</div>
 					<div id="menu" class="row">
 						<div class="col-lg-2">Accueil</div>
 						<div class="col-lg-2">Règles</div>
