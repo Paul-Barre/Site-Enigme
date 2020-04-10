@@ -19,6 +19,7 @@
     font-size: 72px;
     font-style: italic;
     text-decoration: underline;
+    max-height: 300px;
 }
 
 #logo {
@@ -51,4 +52,10 @@
 #playButton:active { 
 	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6); 
+}
+
+p {
+    border: 6px black dashed;
+    border-radius: 20px;
+    background-color: purple;
 }

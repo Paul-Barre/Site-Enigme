@@ -13,7 +13,7 @@
 				<div id="logoTitle_and_navbar" class="col-lg-12">
 					<div id="logo_and_title" class="row">
 						<div id="title" class="col-lg-4 offset-lg-3">
-							ESCAPE THE WEB 
+							<p>ESCAPE THE WEB</p>
 						</div>
 						<div id="logo" class="col-lg-2">LOGO</div>
 					</div>
@@ -27,6 +27,8 @@
 					</nav>
 				</div>
 			</header>
+
+			<!-- PAGE CONTENT -->
 		</div>
 	</body>
 </html>
