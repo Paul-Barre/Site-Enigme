@@ -13,16 +13,18 @@
 				<div id="logoTitle_and_navbar" class="col-lg-12">
 					<div id="logo_and_title" class="row">
 						<div id="title" class="col-lg-4 offset-lg-3">
-							<p>ESCAPE THE WEB</p>
+							ESCAPE THE WEB
 						</div>
-						<div id="logo" class="col-lg-2">LOGO</div>
+						<div id="logo" class="col-lg-2">
+							<img src="lock icon.png" alt="lock_icon">
+						</div>
 					</div>
 					<nav id="navbar" class="navbar navbar-expand-xl navbar-dark bg-dark">
 						<ul class="navbar-nav col-lg-12">
-							<li class="nav-item col-lg-2"><a class="nav-link" href="#">Règles</a></li>
-							<li class="nav-item col-lg-2"><a class="nav-link" href="#">Scores</a></li>
-							<li class="nav-item col-lg-4 active"><a class="nav-link" href="#"><button id="playButton" type="button">JOUER</button></a></li>
-							<li class="nav-item col-lg-2"><a class="nav-link" href="#">S'inscrire / Se connecter</a></li><li class="nav-item col-lg-2"><a class="nav-link" href="#">Vos retours sur le jeu</a></li>
+							<li class="nav-item col-lg-2"><a class="nav-link" href="#">REGLES</a></li>
+							<li class="nav-item col-lg-3"><a class="nav-link" href="#">SCORES</a></li>
+							<li class="nav-item col-lg-2 active"><a class="nav-link" href="#"><button id="playButton" type="button">JOUER</button></a></li>
+							<li class="nav-item col-lg-3"><a class="nav-link" href="#">S'INSCRIRE / SE CONNECTER</a></li><li class="nav-item col-lg-2"><a class="nav-link" href="#">VOS RETOURS</a></li>
 						</ul>	
 					</nav>
 				</div>

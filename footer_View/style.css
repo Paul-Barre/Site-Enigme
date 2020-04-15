@@ -1,0 +1,27 @@
+#footer {
+	max-height: 144px;
+	background-color: black;
+	line-height: 48px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#copyright {
+	border-right: 3px solid white;
+	border-left: 3px solid white;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer a:hover {
+	color: red;
+	text-shadow: white 1px 0 5px;
+	font-weight: bold;
+}

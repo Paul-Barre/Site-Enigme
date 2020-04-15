@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Capture_it';
+    src: url('fonts/Capture_it.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'abster-webfont';
+    src : url('fonts/abster-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Potra';
+    src : url('fonts/Potra.ttf') format('truetype');
+}
+
 .container-fluid {
     width: 100%;
     padding-right: 0px;
@@ -6,36 +21,47 @@
     margin-left: auto;
 }
 
-#logoTitle_and_navbar { background-color: red; }
+#logoTitle_and_navbar { background-color: darkred; }
 
 #logo_and_title { 
     max-height: 300px;
-    line-height: 125px;
 }
 
 #title { 
-    background-color: pink;
-    font-family: "Arial Black", sans-serif;
-    font-size: 72px;
+   /* background-color: pink; */
+    font-family: 'Potra', 'abster-webfont', 'Capture_it', "Arial Black", sans-serif;
+    font-size: 90px;
     font-style: italic;
     text-decoration: underline;
     max-height: 300px;
+    letter-spacing: .3rem;
+    color: black;
+    font-weight: bolder;
+    line-height: 150px;
 }
 
 #logo {
-    background-color: green;
-    line-height: 300px;
+   /* background-color: green; */
+    margin-top: 25px;
+    line-height: 250px;
+    font-weight: bolder;
+    vertical-align: middle;
 }
 
-#navbar { line-height: 40px; }
+#navbar { 
+    line-height: 30px;
+    font-family: 'abster-webfont', sans-serif;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+}
 
 #playButton {
 	border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
+    line-height: 30px;
+    padding: 5px 20px;
     font-size: 1rem;
     text-align: center;
-    color: #fff;
+    color: darkgrey;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: rgba(220, 0, 0, 1);
@@ -45,6 +71,9 @@
                                       rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
+    font-family: 'abster-webfont', sans-serif;
+    letter-spacing: .3rem;
+    font-weight: bolder;
 }
 
 #playButton:hover { background-color: rgba(255, 0, 0, 1); }
@@ -52,10 +81,4 @@
 #playButton:active { 
 	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6); 
-}
-
-p {
-    border: 6px black dashed;
-    border-radius: 20px;
-    background-color: purple;
 }

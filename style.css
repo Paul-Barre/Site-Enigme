@@ -32,6 +32,7 @@
 }
 
 #footer {
-	line-height: 200px;
+	max-height: 150px;
 	background-color: skyblue;
+	line-height: 30px;
 }
