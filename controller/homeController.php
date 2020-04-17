@@ -1,3 +1,3 @@
 <?php
 
-	require '../../view/frontend/homeView.php';
+	require ('../../view/frontend/homeView.php');

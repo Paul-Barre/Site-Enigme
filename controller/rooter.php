@@ -4,13 +4,15 @@
 
 	class Rooter {
 		public function loadController(){
-			try {
-				if (isset($_GET['link']) AND !empty($_GET['link'])){
+			try 
+			{
+				if (isset($_GET['link']) AND !empty($_GET['link']))
+				{
 					$link = strip_tags($_GET['link']);
 					switch ($link) {
 						case 'rules';
 						case 'scores';
-							require $link . 'Controller.php';
+							require ($link . 'Controller.php');
 						break;
 						
 						default:
@@ -18,11 +20,13 @@
 						break;
 					}
 				}
-				else {
-					require 'homeController.php';
+				else 
+				{
+					require ('homeController.php');
 				}
 			}
-			catch(Exception $e){
+			catch(Exception $e)
+			{
 		    	$errorMessage =  $e->getMessage();
 
 		    	require ('../../view/frontend/errorView.php');

@@ -19,8 +19,8 @@
 			</div>
 			<nav id="navbar" class="navbar navbar-expand-xl navbar-dark bg-dark">
 				<ul class="navbar-nav col-lg-12">
-					<li class="nav-item col-lg-2"><a class="nav-link" href="#">REGLES</a></li>
-					<li class="nav-item col-lg-3"><a class="nav-link" href="#">SCORES</a></li>
+					<li class="nav-item col-lg-2"><a class="nav-link" href="index.php?link=rules">REGLES</a></li>
+					<li class="nav-item col-lg-3"><a class="nav-link" href="index.php?link=scores">SCORES</a></li>
 					<li class="nav-item col-lg-2 active"><a class="nav-link" href="#"><button id="playButton" type="button">JOUER</button></a></li>
 					<li class="nav-item col-lg-3"><a class="nav-link" href="#">S'INSCRIRE / SE CONNECTER</a></li><li class="nav-item col-lg-2"><a class="nav-link" href="#">VOS RETOURS</a></li>
 				</ul>	
