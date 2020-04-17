@@ -97,6 +97,21 @@ max-width: 100%;
 
 blockquote { color : purple; }
 
+#homepageTitle { 
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 45vw;
+ }
+
+ #welcomeSpeech {
+    border: dashed black 3px;
+    color: white;
+    background-color: black;
+    margin-left: 30vw;
+    margin-right: 30vw;
+ }
+
         /* FOOTER */
 
 footer {
